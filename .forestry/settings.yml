@@ -7,12 +7,11 @@ sections:
 - type: document
   path: pages.json
   label: Pages Config
-  match: "**/*"
 - type: directory
   path: ''
   label: Page Contents
   create: all
-  match: "**/body.html*"
+  match: "**/body.html.erb"
   new_doc_ext: html.erb
   templates:
   - static-page
