@@ -7,7 +7,8 @@ fields:
   type: text
   config:
     required: true
-    min: 5
+    min: 4
+    max: 
   label: Title
   description: The title of the page
 pages:
