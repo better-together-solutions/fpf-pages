@@ -11,5 +11,3 @@ fields:
     max: 
   label: Title
   description: The title of the page
-pages:
-- test-page/body.html.erb
