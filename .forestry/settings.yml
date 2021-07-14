@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Page Contents
   create: all
-  match: "**/body.html.erb"
+  match: "**/body.html*"
   new_doc_ext: html.erb
 - type: directory
   path: ''
