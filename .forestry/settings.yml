@@ -3,9 +3,21 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
-upload_dir: uploads
-public_path: "/uploads"
+sections:
+- type: directory
+  path: ''
+  label: Page Contents
+  create: all
+  match: "**/body.html.erb"
+  new_doc_ext: ".html.erb"
+- type: directory
+  path: ''
+  label: Page Configuration
+  create: all
+  match: "**/page.json"
+  new_doc_ext: ".json"
+upload_dir: assets
+public_path: "/public"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
