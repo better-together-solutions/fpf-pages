@@ -1,4 +1,11 @@
 ---
 label: Static Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 5
+  label: Title
+  description: The title of the page
