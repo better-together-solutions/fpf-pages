@@ -1,16 +1,15 @@
 {
   "scripts": [
-    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   ],
   "header": {
-    "root": "/welcome",
+    "root": "/",
     "notice": {
       "href": "/join",
       "text": "We're looking for new members"
     }
   },
   "footer": {
-    "root": "/welcome",
+    "root": "/",
     "left_text": "Food Producers Forum"
   },
   "menus": [
