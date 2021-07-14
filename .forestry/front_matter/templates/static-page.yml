@@ -10,4 +10,4 @@ fields:
   label: Title
   description: The title of the page
 pages:
-- test-page.html.erb
+- body.html.erb
