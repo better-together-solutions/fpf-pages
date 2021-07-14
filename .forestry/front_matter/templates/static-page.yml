@@ -9,3 +9,5 @@ fields:
     min: 5
   label: Title
   description: The title of the page
+pages:
+- test-page.html.erb
