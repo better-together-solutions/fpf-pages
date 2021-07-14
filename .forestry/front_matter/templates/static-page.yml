@@ -1,6 +1,7 @@
 ---
-label: Static Page
+label: Page Content
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
