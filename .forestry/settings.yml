@@ -8,16 +8,16 @@ sections:
   path: pages.json
   label: Pages Config
 - type: directory
-  path: ''
+  path: pages
   label: Page Contents
   create: all
-  match: pages/**/body.html*
-  exclude: pages/**/page.json
+  match: "**/body.html*"
+  exclude: "**/page.json"
   new_doc_ext: html.erb
   templates:
   - static-page
 - type: directory
-  path: ''
+  path: pages
   label: Page Configuration
   create: all
   match: "**/page.json"
