@@ -14,7 +14,83 @@
   "menus": [
     {
       "name": "landing",
-      "items": []
+      "items": [
+        {
+          "label": "Join",
+          "description": "Join Food Producers Member Forums",
+          "href": "/join",
+          "items": [
+            {
+              "label": "Benefits",
+              "href": "/benefits",
+              "description": "Membership Benefits"
+            },
+            {
+              "label": "Costs",
+              "href": "/costs",
+              "description": "Cost of being a member"
+            },
+          ]
+        },
+        {
+          "label": "Services",
+          "description": "We provide development, product and support services for food producers.",
+          "href": "/services",
+          "items": [
+            {
+              "label": "Support",
+              "href": "/support",
+              "description": "We provide support and advice"
+            },
+            {
+              "label": "Consulting",
+              "href": "/consulting",
+              "description": "We provide strategic advice",
+              "coming_soon": true
+            },
+            {
+              "label": "Education",
+              "href": "/education",
+              "description": "Courses for developers and community managers",
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "label": "Connect",
+          "description": "Connect with us on our community platforms",
+          "href": "/connect",
+          "items": [
+            {
+              "label": "Facebook",
+              "href": "https://www.facebook.com/FoodProducersNL/",
+              "description": "Our Facebook page"
+            }
+          ]
+        },
+        {
+          "label": "Who We Are",
+          "description": "We connect food producers with people, communities, and resources",
+          "href": "/who-we-are",
+          "items": [
+            {
+              "label": "Members",
+              "href": "/members",
+              "description": "More about our members"
+            },
+            {
+              "label": "Join",
+              "href": "/join",
+              "description": "How to join Food Producers Member Forums"
+            },
+            {
+              "label": "Website",
+              "href": "https://foodproducersforum.com",
+              "description": "Our organization's website"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
