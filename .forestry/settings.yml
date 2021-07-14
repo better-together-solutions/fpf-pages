@@ -11,7 +11,7 @@ sections:
   path: ''
   label: Page Contents
   create: all
-  match: pages/**
+  match: pages/**/body.html*
   exclude: pages/**/page.json
   new_doc_ext: html.erb
   templates:
