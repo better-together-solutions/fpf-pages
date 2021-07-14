@@ -1,5 +1,7 @@
 {
-  "scripts": [],
+  "scripts": [
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  ],
   "header": {
     "root": "/welcome",
     "notice": {
@@ -15,23 +17,6 @@
     {
       "name": "landing",
       "items": [
-        {
-          "label": "Join",
-          "description": "Join Food Producers Member Forums",
-          "href": "/join",
-          "items": [
-            {
-              "label": "Benefits",
-              "href": "/benefits",
-              "description": "Membership Benefits"
-            },
-            {
-              "label": "Costs",
-              "href": "/costs",
-              "description": "Cost of being a member"
-            }
-          ]
-        },
         {
           "label": "Services",
           "description": "We provide development, product and support services for food producers.",
