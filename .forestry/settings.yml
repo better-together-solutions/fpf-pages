@@ -1,7 +1,7 @@
 ---
-new_page_extension: md
+new_page_extension: html
 auto_deploy: false
-admin_path: 
+admin_path: "/forestry"
 webhook_url: 
 sections:
 - type: directory
@@ -9,13 +9,13 @@ sections:
   label: Page Contents
   create: all
   match: "**/body.html.erb"
-  new_doc_ext: ".html.erb"
+  new_doc_ext: html.erb
 - type: directory
   path: ''
   label: Page Configuration
   create: all
   match: "**/page.json"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 upload_dir: assets
 public_path: "/public"
 front_matter_path: ''
