@@ -2,14 +2,14 @@
   "scripts": [
   ],
   "header": {
-    "root": "/",
+    "root": "/welcome",
     "notice": {
       "href": "/join",
       "text": "We're looking for new members"
     }
   },
   "footer": {
-    "root": "/",
+    "root": "/welcome",
     "left_text": "A community hub for Newfoundland & Labrador gardeners, farmers, foragers, fishers, and hunters!"
   },
   "menus": [
