@@ -14,7 +14,7 @@
   },
   "menus": [
     {
-      "name": "header",
+      "name": "landing",
       "items": [
         {
           "label": "Who We Are",
@@ -54,29 +54,6 @@
               "label": "Education",
               "href": "/education",
               "description": "Courses for developers and community managers",
-              "coming_soon": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "footer",
-      "items": [
-        {
-          "label": "Who We Are",
-          "description": "We connect food producers with people, communities, and resources",
-          "href": "/who-we-are",
-          "items": [
-            {
-              "label": "Join",
-              "href": "/join",
-              "description": "How to join Food Producers Member Forums"
-            },
-            {
-              "label": "Members",
-              "href": "/members",
-              "description": "More about our members",
               "coming_soon": true
             }
           ]
