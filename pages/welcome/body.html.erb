@@ -6,3 +6,12 @@
     <p>Click <a href="/">here</a> to check out our latest topics</p>  
   </section>
 </div>
+
+<%= render layout: 'layouts/landing_page', locals: { page_id: 'welcome' } do %>
+  <section>
+    <h1>Welcome to the Food Producers Forum Hub!</h1>
+    <h3>The best place to meet friendly people</h3>
+    <p>We have lots of interesting discussions, events and much more.</p>
+    <p>Click <a href="/">here</a> to check out our latest topics</p>  
+  </section>
+<% end %>
