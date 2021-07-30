@@ -34,32 +34,32 @@
             }
           ]
         },
-        {
-          "label": "Services",
-          "description": "We provide development, product and support services for food producers.",
-          "href": "/services",
-          "coming_soon": true,
-          "items": [
-            {
-              "label": "Support",
-              "href": "/support",
-              "description": "We provide support and advice",
-              "coming_soon": true
-            },
-            {
-              "label": "Consulting",
-              "href": "/consulting",
-              "description": "We provide strategic advice",
-              "coming_soon": true
-            },
-            {
-              "label": "Education",
-              "href": "/education",
-              "description": "Courses for developers and community managers",
-              "coming_soon": true
-            }
-          ]
-        },
+        // {
+        //   "label": "Services",
+        //   "description": "We provide development, product and support services for food producers.",
+        //   "href": "/services",
+        //   "coming_soon": true,
+        //   "items": [
+        //     {
+        //       "label": "Support",
+        //       "href": "/support",
+        //       "description": "We provide support and advice",
+        //       "coming_soon": true
+        //     },
+        //     {
+        //       "label": "Consulting",
+        //       "href": "/consulting",
+        //       "description": "We provide strategic advice",
+        //       "coming_soon": true
+        //     },
+        //     {
+        //       "label": "Education",
+        //       "href": "/education",
+        //       "description": "Courses for developers and community managers",
+        //       "coming_soon": true
+        //     }
+        //   ]
+        // },
         {
           "label": "Connect",
           "description": "Connect with us on our community platforms",
