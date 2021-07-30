@@ -6,3 +6,38 @@
     <p>Click <a href="/">here</a> to check out our latest topics</p>  
   </section>
 </div>
+
+<%= render layout: 'layouts/landing_page_wrapper', locals: { page_id: 'subscribe'} do %>
+  <section class="introduction">
+    <h1>Subscribe to Food Producers Forum Hub!</h1>
+  </section>
+  <section class="membership-fees">
+    <h3>Membership Fees</h3>
+    <table class="membership-fee-table">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Annual Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Associate</td>
+          <td>$25</td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td>$47</td>
+        </tr>
+        <tr>
+          <td>Supporter</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>Sponsor (lifetime member)</td>
+          <td>$500 or more</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<% end %>
